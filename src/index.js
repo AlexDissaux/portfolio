@@ -4,10 +4,12 @@ import './index.css';
 import App from './App/App';
 import * as serviceWorker from './serviceWorker';
 import 'semantic-ui-css/semantic.min.css'
-import Header from './Header/Header.js';
+import Header from './Header/Header2.js';
+import SpaceTop from './spaceTop'
 
 ReactDOM.render(
   <React.StrictMode>
+      <SpaceTop/>
       <Header/>
   </React.StrictMode>,
   document.getElementById('root')

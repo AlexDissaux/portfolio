@@ -1,11 +1,6 @@
-.photo {
-    height : 15em;
-    width: 15em;
-    background: red;
-}
-
-.photo:hover {
-    /*ox-shadow: 60px -16px teal*/
-    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
-    transition: box-shadow 0.3s ease-in-out;
+#title {
+    height : 12em;
+    width: 50%;
+    background : blue;
+    align-self : flex-end;
 }

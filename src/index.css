@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.tile:hover {
+  background: green;
+  transform: translate(1em,-1em);
+
+  transition-property: transform;
+  transition-duration: 0.5s;
+  transition-delai: 0.1s;
+  transition-timing-function: ease;
+}
