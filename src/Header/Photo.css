@@ -1,8 +1,4 @@
-#photo {
-    height : 15em;
-    width: 15em;
-    background: red;
-}
+#photo {}
 
 #photo:hover {
         box-shadow: 0 0 3rem grey;
