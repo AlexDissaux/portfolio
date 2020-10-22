@@ -1,5 +1,8 @@
 body {
-  background: black !important;
+   /*background: url(https://mocah.org/uploads/posts/100333-galaxy-space-4k.jpg);*/
+  background: url(https://images.hdqwalls.com/wallpapers/space-dark-dust-galaxy-nebula-tg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
