@@ -1,13 +1,9 @@
 .tile {
     width : 10em;
     height : 10em;
-    background : cyan;
     margin-left:5em;
+    background : cyan;
 
-    transition-property: transform;
-    transition-duration: 0.5s;
-    /*transition-delai: 0.1s;*/
-    transition-timing-function: ease;
     cursor : pointer;
 
     /* fix laggy transition */
