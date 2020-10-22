@@ -8,7 +8,7 @@ import '../index.css'
 function Header(props) {
     return (
         <div class="flex-container">
-            <img id="photo" class="item animated" src="https://mdn.mozillademos.org/files/7693/catfront.png" alt="">
+            <img id="photo" class="item animated" src="https://media-exp1.licdn.com/dms/image/C4E03AQG0YHLh345PxQ/profile-displayphoto-shrink_200_200/0?e=1608768000&v=beta&t=6xfc4EKVSfWRFcdPLWr8XFi3anItc-TRNxNdqfcM59A" alt="">
             <div id="title" class="item"> Title </div>
         </div>
     );
