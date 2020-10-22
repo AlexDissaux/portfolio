@@ -1,19 +1,24 @@
 .tile {
+    /* Dimensions */
     width : 10em;
-    height : 10em;
+    height : 9em;
     margin-left:5em;
-    background : cyan;
-
+  
+    background : rgb(0,0,0,0);
+    /* Border */
+    border: solid  rgba(255,255,255, .4);
+  
+    /* Cursor */
     cursor : pointer;
-
+  
     /* fix laggy transition */
     transform: translateZ(0);
-
 }
 
 .tile:hover {
-    background: green;
-    transform: translate(1em,-1em);
+    transform: translate(5px,-5px);
+    border: solid rgba(255,255,255, .3);
+    box-shadow: 0 0 1rem grey;
 }
 
 .textInTile {
