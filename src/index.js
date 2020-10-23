@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import 'semantic-ui-css/semantic.min.css'
 import Header from './Header/Header2.js';
 import SpaceTop from './spaceTop'
 import Tech from "./Tech/Tech";
