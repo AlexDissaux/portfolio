@@ -1,5 +1,5 @@
 import React from "react";
-import "./spaceTop.css"
+import "./SpaceTop.css"
 
 function SpaceTop(props) {
     return (

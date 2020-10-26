@@ -1,0 +1,56 @@
+
+#total {
+    background: url(https://media.lesechos.com/api/v1/images/view/5cb5c6c33e4546367a77e21d/1280x720/2115767-petrole-vers-un-choc-de-loffre-ou-de-la-demande-173901-1.jpg);
+    background-size: cover;
+}
+
+#gbh {
+    background: url(https://www.challenges.fr/assets/img/2018/06/01/cover-r4x3w1000-5c2b3d07ac15a-6c7406d167e822e4ae03bc207099046500def075-jpg.jpg);
+    /*      background: url(https://lh3.googleusercontent.com/proxy/gELDfA1zCemZGgDrSiRGCeCc_alg1QSr73B_hqw1_SH3J0pbTDvUGUa9PnKozc2jv-rPnjsDlOGVjqF0NVyli9l1LFKcI4l7gM3T-OjVOgCR_VdoNPk6T3jUH3OMOaGUiV_lXJ865A);*/
+    background-size: cover;
+}
+
+#safran {
+    background: url(https://croixdeguerre-valeurmilitaire.fr/wp-content/uploads/2018/06/web-He%CC%81lico-Cai%CC%88man-c-Marine-nationale.jpg);
+    background-size: cover;
+
+}
+
+#arpiae {
+    background: url(https://media-exp1.licdn.com/dms/image/C4E0BAQGOZhNSD227rw/company-logo_200_200/0?e=1611792000&v=beta&t=yBiH7pKrN3wdLDveoTfmVJVpOTW-JKVCf1UedHNExUk);
+    background-size: cover;
+}
+
+.flex-container-inTile {
+
+}
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    flex-wrap : wrap;
+    justify-content : center;
+
+    /* Dimensions */
+    width : 13em;
+    height : 12em;
+    margin: 3rem;
+
+    background : rgb(0,0,0,0);
+    /* Border */
+    border: 3px solid rgba(255, 255, 255, .4);
+
+    /* Cursor */
+    cursor : pointer;
+
+    /* fix laggy transition */
+    transform: translateZ(0);
+}
+
+.tile:hover {
+    transform: translate(5px,-5px);
+    border: 3px solid rgba(255, 255, 255, .1);
+
+   /* border: rgba(255,255,255, .3);*/
+    box-shadow: 0 0 3rem grey;
+}

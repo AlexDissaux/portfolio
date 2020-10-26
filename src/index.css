@@ -46,3 +46,11 @@ code {
   flex-wrap : wrap;
   justify-content : center;
 }
+
+.textInTile {
+  align-self : center;
+  font-size: 30px;
+  font-weight : bold;
+  color : white !important;
+}
+

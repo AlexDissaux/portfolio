@@ -3,13 +3,18 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
 import Header from './Header/Header2.js';
-import SpaceTop from './spaceTop'
+import SpaceTop from './SpaceTop/SpaceTop'
 import Tech from "./Tech/Tech";
+import Experience from "./Experience/Experience";
+import RH from "./RH/RH";
 
 ReactDOM.render(
   <React.StrictMode>
       <SpaceTop/>
       <Header/>
+      {/*<RH/>*/}
+      {<RH/>}
+      <Experience/>
       <Tech/>
   </React.StrictMode>,
   document.getElementById('root')
